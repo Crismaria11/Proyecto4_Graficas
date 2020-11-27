@@ -54,9 +54,9 @@ shader = compileProgram(
 )
 
 
-scene = pyassimp.load('./spider.obj')
+scene = pyassimp.load('./models/OBJ/spider.obj')
 
-texture_surface = pygame.image.load('./spider.jpg')
+texture_surface = pygame.image.load('./models/OBJ/SpiderTex.jpg')
 texture_data = pygame.image.tostring(texture_surface, 'RGB')
 width = texture_surface.get_width()
 height = texture_surface.get_height()
